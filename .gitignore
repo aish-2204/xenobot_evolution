@@ -37,6 +37,9 @@ src_milestone1_fitness.py
 m1_starter.py
 notebooks/_build_*.py
 
+# EA checkpoint files (large binary run artifacts)
+checkpoint_gen_*.pkl
+
 # macOS
 .DS_Store
 

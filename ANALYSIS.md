@@ -5,7 +5,7 @@ using an evolutionary algorithm and physics simulation to maximise locomotion.
 
 ---
 
-## What I Built (Plain English)
+## What I Built
 
 The project is divided into four milestones, each adding a layer on top of the last.
 
@@ -146,16 +146,6 @@ Random selection (no tournament) produces near-random search — fitness peaks a
 
 ---
 
-## What Should Be Improved
-
-### Bugs to fix
-
-| Issue | Where | Fix |
-|-------|-------|-----|
-| `np.trapz` was removed in NumPy 2.x | `src/milestone3/ablation.py:283` | Replace with `np.trapezoid` (NumPy 2.0+) — this caused the ablation stats CSV to be empty |
-| Ablation stats DataFrame is empty | `results/m3/ablation/ablation_stats.csv` | Re-run after fixing the trapz bug |
-| Morphological computation section is blank | `notebooks/milestone4_notebook.ipynb` cells 16-17 | Fill in after running the morphological analysis |
-
 ### Algorithm improvements
 
 **1. Add diversity maintenance**
@@ -173,32 +163,8 @@ Currently `mutpb=0.3` is fixed. A simple improvement: increase mutation rate whe
 **4. Warm-start from M3 best individuals**
 The M4 NSGA-II run started from a random population. Seeding 20–30% of the initial population with the best genomes from M3 would give a much stronger starting point.
 
-### Config improvements
-
-```yaml
-# nsga2.yaml — suggested changes
-tournsize: 3          # currently 2 — raise to 3 for slightly more selection pressure
-n_workers: 6          # if machine has 8+ cores, more parallelism helps
-sim_time: 0.75        # currently mixed (0.5 in notebooks, 1.0 in final) — standardise
-```
 
 **Inconsistency to fix:** M2 notebooks use `sim_time=0.5`, M3 uses `sim_time=0.5` during ablation and `sim_time=1.0` for final renders. Results are not directly comparable across milestones. Pick one value and stick to it.
-
-### Testing improvements
-
-| Gap | Suggested test |
-|-----|---------------|
-| No test for diversity collapse detection | Add test: run 5 gens with k=7, assert diversity < 0.1 by gen 3 |
-| No test for ablation CSV output | Add test: mock a short ablation run, assert stats CSV is non-empty |
-| No test for NSGA-II Pareto size | Add test: after 10 gens, assert Pareto front has ≥ 2 individuals |
-| `np.trapz` bug not caught | Add a test that imports `run_all_ablations` and calls it with 1 gen — would have caught the NumPy 2.x incompatibility immediately |
-
-### What to run next (if time allows)
-
-1. **Fix the np.trapz bug and re-run the ablation** — the current ablation stats are incomplete. This is the highest priority since it affects the report.
-2. **Run NSGA-II for 200 gens** (currently only 80) to see if the Pareto front stabilises or keeps growing.
-3. **Complete the MAP-Elites run** — the notebook only shows setup; no grid was filled during the run shown in the notebook. A full 500-iteration run would show whether diversity in behaviour space correlates with fitness.
-4. **Fill in the morphological computation section** in milestone4_notebook — the relationship between active ratio, CoM height, symmetry, and fitness is currently a placeholder.
 
 ---
 
