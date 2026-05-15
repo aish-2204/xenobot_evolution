@@ -1,0 +1,28 @@
+# NSGA-II Multi-Objective Configuration
+# Mac CPU-appropriate settings
+
+pop_size: 40
+n_generations: 80
+mu: 40
+lambda_: 80
+cxpb: 0.5
+mutpb: 0.3
+tournsize: 2          # NSGA-II uses crowding distance, smaller tournament OK
+hof_size: 20
+seed: 42
+n_workers: 4
+save_dir: results/m4/
+
+# Objectives
+objective_1: distance    # maximise
+objective_2: n_voxels    # minimise
+ref_point: [0.0, 513.0]  # hypervolume reference point
+
+# Behaviour space (MAP-Elites)
+behavior_dims:
+  - name: distance
+    bins: 10
+    range: [0.0, 1.0]
+  - name: symmetry
+    bins: 10
+    range: [0.0, 1.0]

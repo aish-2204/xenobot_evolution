@@ -1,0 +1,650 @@
+[
+  {
+    "gen": 0,
+    "nevals": 40,
+    "hypervolume": 1962.8307,
+    "pareto_front_size": 2,
+    "max_distance": 13.5969,
+    "min_voxels": 368.0
+  },
+  {
+    "gen": 1,
+    "nevals": 59,
+    "hypervolume": 2200.935,
+    "pareto_front_size": 1,
+    "max_distance": 14.6729,
+    "min_voxels": 363.0
+  },
+  {
+    "gen": 2,
+    "nevals": 62,
+    "hypervolume": 2571.0802599999997,
+    "pareto_front_size": 4,
+    "max_distance": 16.6039,
+    "min_voxels": 354.0
+  },
+  {
+    "gen": 3,
+    "nevals": 64,
+    "hypervolume": 3307.8290399999996,
+    "pareto_front_size": 4,
+    "max_distance": 21.2354,
+    "min_voxels": 354.0
+  },
+  {
+    "gen": 4,
+    "nevals": 62,
+    "hypervolume": 3622.748729,
+    "pareto_front_size": 5,
+    "max_distance": 22.5903,
+    "min_voxels": 346.0
+  },
+  {
+    "gen": 5,
+    "nevals": 59,
+    "hypervolume": 3676.9858400000003,
+    "pareto_front_size": 4,
+    "max_distance": 22.5903,
+    "min_voxels": 346.0
+  },
+  {
+    "gen": 6,
+    "nevals": 63,
+    "hypervolume": 4046.2244999999994,
+    "pareto_front_size": 6,
+    "max_distance": 24.0463,
+    "min_voxels": 339.0
+  },
+  {
+    "gen": 7,
+    "nevals": 72,
+    "hypervolume": 4157.026099999999,
+    "pareto_front_size": 11,
+    "max_distance": 24.0463,
+    "min_voxels": 332.0
+  },
+  {
+    "gen": 8,
+    "nevals": 70,
+    "hypervolume": 6852.5082,
+    "pareto_front_size": 2,
+    "max_distance": 38.4238,
+    "min_voxels": 332.0
+  },
+  {
+    "gen": 9,
+    "nevals": 62,
+    "hypervolume": 6869.51232,
+    "pareto_front_size": 4,
+    "max_distance": 38.4238,
+    "min_voxels": 330.0
+  },
+  {
+    "gen": 10,
+    "nevals": 68,
+    "hypervolume": 7050.595499999999,
+    "pareto_front_size": 3,
+    "max_distance": 38.4238,
+    "min_voxels": 324.0
+  },
+  {
+    "gen": 11,
+    "nevals": 65,
+    "hypervolume": 7093.685,
+    "pareto_front_size": 3,
+    "max_distance": 38.4238,
+    "min_voxels": 324.0
+  },
+  {
+    "gen": 12,
+    "nevals": 60,
+    "hypervolume": 8818.9154,
+    "pareto_front_size": 5,
+    "max_distance": 47.9372,
+    "min_voxels": 323.0
+  },
+  {
+    "gen": 13,
+    "nevals": 59,
+    "hypervolume": 8902.1306,
+    "pareto_front_size": 13,
+    "max_distance": 47.9372,
+    "min_voxels": 318.0
+  },
+  {
+    "gen": 14,
+    "nevals": 69,
+    "hypervolume": 9164.7405,
+    "pareto_front_size": 19,
+    "max_distance": 47.9372,
+    "min_voxels": 312.0
+  },
+  {
+    "gen": 15,
+    "nevals": 64,
+    "hypervolume": 9270.804699999999,
+    "pareto_front_size": 30,
+    "max_distance": 47.9372,
+    "min_voxels": 304.0
+  },
+  {
+    "gen": 16,
+    "nevals": 64,
+    "hypervolume": 9312.035000000002,
+    "pareto_front_size": 28,
+    "max_distance": 47.9372,
+    "min_voxels": 304.0
+  },
+  {
+    "gen": 17,
+    "nevals": 66,
+    "hypervolume": 9472.6257,
+    "pareto_front_size": 36,
+    "max_distance": 47.9372,
+    "min_voxels": 304.0
+  },
+  {
+    "gen": 18,
+    "nevals": 67,
+    "hypervolume": 10959.00008,
+    "pareto_front_size": 17,
+    "max_distance": 56.1095,
+    "min_voxels": 302.0
+  },
+  {
+    "gen": 19,
+    "nevals": 64,
+    "hypervolume": 11154.033799999997,
+    "pareto_front_size": 10,
+    "max_distance": 56.1095,
+    "min_voxels": 302.0
+  },
+  {
+    "gen": 20,
+    "nevals": 63,
+    "hypervolume": 11206.3694,
+    "pareto_front_size": 15,
+    "max_distance": 56.1095,
+    "min_voxels": 302.0
+  },
+  {
+    "gen": 21,
+    "nevals": 66,
+    "hypervolume": 11281.7085,
+    "pareto_front_size": 16,
+    "max_distance": 56.1095,
+    "min_voxels": 302.0
+  },
+  {
+    "gen": 22,
+    "nevals": 64,
+    "hypervolume": 11309.28203,
+    "pareto_front_size": 27,
+    "max_distance": 56.1095,
+    "min_voxels": 299.0
+  },
+  {
+    "gen": 23,
+    "nevals": 65,
+    "hypervolume": 11518.987899999998,
+    "pareto_front_size": 13,
+    "max_distance": 56.1095,
+    "min_voxels": 297.0
+  },
+  {
+    "gen": 24,
+    "nevals": 70,
+    "hypervolume": 12162.8895,
+    "pareto_front_size": 8,
+    "max_distance": 58.1557,
+    "min_voxels": 295.0
+  },
+  {
+    "gen": 25,
+    "nevals": 66,
+    "hypervolume": 12251.9421,
+    "pareto_front_size": 8,
+    "max_distance": 58.1557,
+    "min_voxels": 295.0
+  },
+  {
+    "gen": 26,
+    "nevals": 71,
+    "hypervolume": 12551.1004,
+    "pareto_front_size": 7,
+    "max_distance": 59.2854,
+    "min_voxels": 295.0
+  },
+  {
+    "gen": 27,
+    "nevals": 60,
+    "hypervolume": 12600.893299999998,
+    "pareto_front_size": 7,
+    "max_distance": 59.2854,
+    "min_voxels": 295.0
+  },
+  {
+    "gen": 28,
+    "nevals": 59,
+    "hypervolume": 14937.131,
+    "pareto_front_size": 2,
+    "max_distance": 68.837,
+    "min_voxels": 292.0
+  },
+  {
+    "gen": 29,
+    "nevals": 66,
+    "hypervolume": 14958.5712,
+    "pareto_front_size": 5,
+    "max_distance": 68.837,
+    "min_voxels": 292.0
+  },
+  {
+    "gen": 30,
+    "nevals": 58,
+    "hypervolume": 15110.4789,
+    "pareto_front_size": 13,
+    "max_distance": 68.837,
+    "min_voxels": 288.0
+  },
+  {
+    "gen": 31,
+    "nevals": 67,
+    "hypervolume": 15144.912411000001,
+    "pareto_front_size": 22,
+    "max_distance": 68.837,
+    "min_voxels": 287.0
+  },
+  {
+    "gen": 32,
+    "nevals": 64,
+    "hypervolume": 15339.480899999999,
+    "pareto_front_size": 38,
+    "max_distance": 69.5923,
+    "min_voxels": 286.0
+  },
+  {
+    "gen": 33,
+    "nevals": 59,
+    "hypervolume": 15384.200213999999,
+    "pareto_front_size": 40,
+    "max_distance": 69.5923,
+    "min_voxels": 284.0
+  },
+  {
+    "gen": 34,
+    "nevals": 58,
+    "hypervolume": 15593.781707000002,
+    "pareto_front_size": 26,
+    "max_distance": 70.3933,
+    "min_voxels": 284.0
+  },
+  {
+    "gen": 35,
+    "nevals": 57,
+    "hypervolume": 15628.930600000002,
+    "pareto_front_size": 40,
+    "max_distance": 70.3933,
+    "min_voxels": 282.0
+  },
+  {
+    "gen": 36,
+    "nevals": 56,
+    "hypervolume": 15787.659300000001,
+    "pareto_front_size": 40,
+    "max_distance": 70.3933,
+    "min_voxels": 280.0
+  },
+  {
+    "gen": 37,
+    "nevals": 59,
+    "hypervolume": 15805.6288,
+    "pareto_front_size": 40,
+    "max_distance": 70.3933,
+    "min_voxels": 280.0
+  },
+  {
+    "gen": 38,
+    "nevals": 68,
+    "hypervolume": 15826.804,
+    "pareto_front_size": 40,
+    "max_distance": 70.3933,
+    "min_voxels": 280.0
+  },
+  {
+    "gen": 39,
+    "nevals": 54,
+    "hypervolume": 15825.184599999999,
+    "pareto_front_size": 40,
+    "max_distance": 70.3933,
+    "min_voxels": 280.0
+  },
+  {
+    "gen": 40,
+    "nevals": 65,
+    "hypervolume": 15845.250099999997,
+    "pareto_front_size": 15,
+    "max_distance": 70.3933,
+    "min_voxels": 280.0
+  },
+  {
+    "gen": 41,
+    "nevals": 60,
+    "hypervolume": 15900.649800000001,
+    "pareto_front_size": 22,
+    "max_distance": 70.3933,
+    "min_voxels": 280.0
+  },
+  {
+    "gen": 42,
+    "nevals": 63,
+    "hypervolume": 15987.811399999999,
+    "pareto_front_size": 38,
+    "max_distance": 70.3933,
+    "min_voxels": 279.0
+  },
+  {
+    "gen": 43,
+    "nevals": 63,
+    "hypervolume": 16001.643,
+    "pareto_front_size": 40,
+    "max_distance": 70.3933,
+    "min_voxels": 279.0
+  },
+  {
+    "gen": 44,
+    "nevals": 60,
+    "hypervolume": 16173.196709999997,
+    "pareto_front_size": 25,
+    "max_distance": 71.0152,
+    "min_voxels": 276.0
+  },
+  {
+    "gen": 45,
+    "nevals": 62,
+    "hypervolume": 16695.995359999997,
+    "pareto_front_size": 23,
+    "max_distance": 72.7646,
+    "min_voxels": 272.0
+  },
+  {
+    "gen": 46,
+    "nevals": 67,
+    "hypervolume": 16880.44758,
+    "pareto_front_size": 11,
+    "max_distance": 72.7646,
+    "min_voxels": 272.0
+  },
+  {
+    "gen": 47,
+    "nevals": 65,
+    "hypervolume": 16935.361999999997,
+    "pareto_front_size": 15,
+    "max_distance": 72.7646,
+    "min_voxels": 272.0
+  },
+  {
+    "gen": 48,
+    "nevals": 66,
+    "hypervolume": 17256.933100000002,
+    "pareto_front_size": 15,
+    "max_distance": 72.7646,
+    "min_voxels": 269.0
+  },
+  {
+    "gen": 49,
+    "nevals": 67,
+    "hypervolume": 17980.909700000004,
+    "pareto_front_size": 12,
+    "max_distance": 75.2008,
+    "min_voxels": 269.0
+  },
+  {
+    "gen": 50,
+    "nevals": 63,
+    "hypervolume": 18405.331599999998,
+    "pareto_front_size": 5,
+    "max_distance": 75.9096,
+    "min_voxels": 268.0
+  },
+  {
+    "gen": 51,
+    "nevals": 63,
+    "hypervolume": 18512.7925,
+    "pareto_front_size": 5,
+    "max_distance": 75.9096,
+    "min_voxels": 267.0
+  },
+  {
+    "gen": 52,
+    "nevals": 62,
+    "hypervolume": 19956.842200000003,
+    "pareto_front_size": 9,
+    "max_distance": 82.2969,
+    "min_voxels": 267.0
+  },
+  {
+    "gen": 53,
+    "nevals": 68,
+    "hypervolume": 21040.219200000003,
+    "pareto_front_size": 10,
+    "max_distance": 86.0215,
+    "min_voxels": 263.0
+  },
+  {
+    "gen": 54,
+    "nevals": 67,
+    "hypervolume": 21273.4649,
+    "pareto_front_size": 7,
+    "max_distance": 86.0215,
+    "min_voxels": 260.0
+  },
+  {
+    "gen": 55,
+    "nevals": 66,
+    "hypervolume": 21434.467600000004,
+    "pareto_front_size": 11,
+    "max_distance": 86.0215,
+    "min_voxels": 258.0
+  },
+  {
+    "gen": 56,
+    "nevals": 60,
+    "hypervolume": 22008.8279,
+    "pareto_front_size": 11,
+    "max_distance": 87.6658,
+    "min_voxels": 258.0
+  },
+  {
+    "gen": 57,
+    "nevals": 65,
+    "hypervolume": 22065.2693,
+    "pareto_front_size": 17,
+    "max_distance": 87.6658,
+    "min_voxels": 257.0
+  },
+  {
+    "gen": 58,
+    "nevals": 64,
+    "hypervolume": 22163.110399999998,
+    "pareto_front_size": 13,
+    "max_distance": 87.6658,
+    "min_voxels": 256.0
+  },
+  {
+    "gen": 59,
+    "nevals": 62,
+    "hypervolume": 23639.4748,
+    "pareto_front_size": 23,
+    "max_distance": 93.7552,
+    "min_voxels": 255.0
+  },
+  {
+    "gen": 60,
+    "nevals": 67,
+    "hypervolume": 23867.7935,
+    "pareto_front_size": 8,
+    "max_distance": 93.7552,
+    "min_voxels": 252.0
+  },
+  {
+    "gen": 61,
+    "nevals": 59,
+    "hypervolume": 23870.179200000002,
+    "pareto_front_size": 14,
+    "max_distance": 93.7552,
+    "min_voxels": 252.0
+  },
+  {
+    "gen": 62,
+    "nevals": 61,
+    "hypervolume": 23982.6627,
+    "pareto_front_size": 22,
+    "max_distance": 93.7552,
+    "min_voxels": 251.0
+  },
+  {
+    "gen": 63,
+    "nevals": 65,
+    "hypervolume": 24182.108170000003,
+    "pareto_front_size": 32,
+    "max_distance": 93.7552,
+    "min_voxels": 247.0
+  },
+  {
+    "gen": 64,
+    "nevals": 66,
+    "hypervolume": 24279.56807,
+    "pareto_front_size": 19,
+    "max_distance": 93.7552,
+    "min_voxels": 247.0
+  },
+  {
+    "gen": 65,
+    "nevals": 62,
+    "hypervolume": 24288.64319,
+    "pareto_front_size": 28,
+    "max_distance": 93.7552,
+    "min_voxels": 241.0
+  },
+  {
+    "gen": 66,
+    "nevals": 69,
+    "hypervolume": 24395.94454,
+    "pareto_front_size": 17,
+    "max_distance": 93.7552,
+    "min_voxels": 241.0
+  },
+  {
+    "gen": 67,
+    "nevals": 65,
+    "hypervolume": 24455.23855,
+    "pareto_front_size": 19,
+    "max_distance": 93.7552,
+    "min_voxels": 241.0
+  },
+  {
+    "gen": 68,
+    "nevals": 62,
+    "hypervolume": 24523.509349999997,
+    "pareto_front_size": 26,
+    "max_distance": 93.7552,
+    "min_voxels": 241.0
+  },
+  {
+    "gen": 69,
+    "nevals": 67,
+    "hypervolume": 24596.487299999993,
+    "pareto_front_size": 31,
+    "max_distance": 93.7552,
+    "min_voxels": 240.0
+  },
+  {
+    "gen": 70,
+    "nevals": 64,
+    "hypervolume": 25545.44779999999,
+    "pareto_front_size": 40,
+    "max_distance": 97.6017,
+    "min_voxels": 240.0
+  },
+  {
+    "gen": 71,
+    "nevals": 67,
+    "hypervolume": 25595.423999999995,
+    "pareto_front_size": 40,
+    "max_distance": 97.6017,
+    "min_voxels": 240.0
+  },
+  {
+    "gen": 72,
+    "nevals": 66,
+    "hypervolume": 25659.724299999994,
+    "pareto_front_size": 28,
+    "max_distance": 97.6017,
+    "min_voxels": 240.0
+  },
+  {
+    "gen": 73,
+    "nevals": 68,
+    "hypervolume": 26328.0392,
+    "pareto_front_size": 23,
+    "max_distance": 100.036,
+    "min_voxels": 240.0
+  },
+  {
+    "gen": 74,
+    "nevals": 62,
+    "hypervolume": 26400.6848,
+    "pareto_front_size": 31,
+    "max_distance": 100.036,
+    "min_voxels": 237.0
+  },
+  {
+    "gen": 75,
+    "nevals": 67,
+    "hypervolume": 26429.057699999998,
+    "pareto_front_size": 40,
+    "max_distance": 100.036,
+    "min_voxels": 237.0
+  },
+  {
+    "gen": 76,
+    "nevals": 68,
+    "hypervolume": 26700.6511,
+    "pareto_front_size": 38,
+    "max_distance": 100.036,
+    "min_voxels": 236.0
+  },
+  {
+    "gen": 77,
+    "nevals": 65,
+    "hypervolume": 26725.9449,
+    "pareto_front_size": 36,
+    "max_distance": 100.036,
+    "min_voxels": 236.0
+  },
+  {
+    "gen": 78,
+    "nevals": 68,
+    "hypervolume": 28291.74000000001,
+    "pareto_front_size": 32,
+    "max_distance": 105.779,
+    "min_voxels": 233.0
+  },
+  {
+    "gen": 79,
+    "nevals": 62,
+    "hypervolume": 28716.817420000007,
+    "pareto_front_size": 33,
+    "max_distance": 107.353,
+    "min_voxels": 232.0
+  },
+  {
+    "gen": 80,
+    "nevals": 62,
+    "hypervolume": 28819.89382,
+    "pareto_front_size": 31,
+    "max_distance": 107.353,
+    "min_voxels": 232.0
+  }
+]

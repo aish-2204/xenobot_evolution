@@ -1,0 +1,45 @@
+# Virtual environments
+.venv/
+venv/
+env/
+xenobot_env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Simulator binaries (platform-specific — rebuild from _evosoro_src/)
+voxelyze
+voxcraft-sim
+
+# External source + build artifacts (not for submission)
+_evosoro_src/
+_voxelyze_build/
+
+# Internal / scratch files (not for professor)
+CLAUDE.md
+claude_code_prompts.md
+project_structure.md
+src_milestone1_fitness.py
+m1_starter.py
+notebooks/_build_*.py
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/

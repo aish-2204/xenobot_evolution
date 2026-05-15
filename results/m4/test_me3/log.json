@@ -1,0 +1,14 @@
+[
+  {
+    "iteration": 0,
+    "n_filled_cells": 1,
+    "max_fitness": 5.34053,
+    "mean_fitness": 5.34053
+  },
+  {
+    "iteration": 3,
+    "n_filled_cells": 1,
+    "max_fitness": 9.30761,
+    "mean_fitness": 9.30761
+  }
+]

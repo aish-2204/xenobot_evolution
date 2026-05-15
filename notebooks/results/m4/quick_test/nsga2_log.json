@@ -1,0 +1,50 @@
+[
+  {
+    "gen": 0,
+    "nevals": 10,
+    "hypervolume": 1297.1493400000002,
+    "pareto_front_size": 2,
+    "max_distance": 9.47638,
+    "min_voxels": 368.0
+  },
+  {
+    "gen": 1,
+    "nevals": 14,
+    "hypervolume": 2106.3792,
+    "pareto_front_size": 7,
+    "max_distance": 15.8391,
+    "min_voxels": 365.0
+  },
+  {
+    "gen": 2,
+    "nevals": 14,
+    "hypervolume": 2564.5977000000003,
+    "pareto_front_size": 2,
+    "max_distance": 17.3109,
+    "min_voxels": 364.0
+  },
+  {
+    "gen": 3,
+    "nevals": 17,
+    "hypervolume": 2818.06903,
+    "pareto_front_size": 6,
+    "max_distance": 18.6879,
+    "min_voxels": 353.0
+  },
+  {
+    "gen": 4,
+    "nevals": 19,
+    "hypervolume": 3061.3855599999997,
+    "pareto_front_size": 9,
+    "max_distance": 20.2772,
+    "min_voxels": 353.0
+  },
+  {
+    "gen": 5,
+    "nevals": 15,
+    "hypervolume": 3194.22668,
+    "pareto_front_size": 4,
+    "max_distance": 20.6584,
+    "min_voxels": 353.0
+  }
+]
